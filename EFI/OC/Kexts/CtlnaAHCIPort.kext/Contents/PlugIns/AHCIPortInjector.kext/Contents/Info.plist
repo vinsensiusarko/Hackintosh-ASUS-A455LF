@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>18G6032</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>Fabio1971 and insanelymac.com</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AHCI Device Injector</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>10G8</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>18G74</string>
+	<key>DTSDKName</key>
+	<string>macosx10.14</string>
+	<key>DTXcode</key>
+	<string>1030</string>
+	<key>DTXcodeBuild</key>
+	<string>10G8</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>AppleAHCIDiskDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOAHCIBlockStorage</string>
+			<key>IOClass</key>
+			<string>AppleAHCIDiskDriver</string>
+			<key>IOProbeScore</key>
+			<integer>6800</integer>
+			<key>IOProviderClass</key>
+			<string>IOAHCIDevice</string>
+			<key>Protocol Characteristics</key>
+			<dict>
+				<key>Physical Interconnect</key>
+				<string>SATA</string>
+				<key>Physical Interconnect Location</key>
+				<string>Internal</string>
+			</dict>
+		</dict>
+		<key>AppleSATAExpress</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>IOClass</key>
+			<string>AppleSATAExpress</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa801144d</string>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>GenericAHCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>SATA AHCI Standard Controller(Generic)</string>
+			<key>IOClass</key>
+			<string>AppleAHCI</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x01060100&amp;0xffffff00</string>
+			<key>IOProbeScore</key>
+			<integer>800</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendor Name</key>
+			<string>Manufacturer Unknown</string>
+		</dict>
+		<key>IOAHCISerialATAPI</key>
+		<dict>
+			<key>ATAPI</key>
+			<true/>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOAHCISerialATAPI</string>
+			<key>IOClass</key>
+			<string>IOAHCISerialATAPI</string>
+			<key>IOProbeScore</key>
+			<integer>6800</integer>
+			<key>IOProviderClass</key>
+			<string>IOAHCIDevice</string>
+			<key>Protocol Characteristics</key>
+			<dict>
+				<key>Physical Interconnect</key>
+				<string>SATA</string>
+				<key>Physical Interconnect Location</key>
+				<string>Internal</string>
+			</dict>
+		</dict>
+		<key>Intel9SeriesAHCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>9 Series Chipset</string>
+			<key>IOClass</key>
+			<string>AppleIntelPchSeriesAHCI</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci8086,8c82</string>
+				<string>pci8086,9c83</string>
+				<string>pci8086,8c83</string>
+			</array>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendor Name</key>
+			<string>Intel</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Fabio1971 and  insanelymac.com</string>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>
